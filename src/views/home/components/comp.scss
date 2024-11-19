@@ -48,6 +48,7 @@
   margin: 0 auto;
   margin-top: 64px;
   padding: 0 40px;
+  padding-bottom: 64px;
   text-align: center;
   color: #fff;
   h1 {
@@ -139,5 +140,24 @@
 }
 
 .home-footer {
-  
+  padding: 64px 0;
+  background-color: #f0f1f5;
+  .footer {
+    margin: 0 auto;
+    max-width: 1024px;
+    text-align: center;
+    letter-spacing: .35px;
+    h2 {
+      font-weight: 700;
+      font-size: 52px;
+      color: #000;
+    }
+    p {
+      max-width: 720px;
+      margin: 32px auto;
+      font-weight: 600;
+      text-align: center;
+      font-size: 24px;
+    }
+  }
 }
