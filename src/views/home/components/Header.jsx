@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <>
       <div className="home-header">
-        <img src={headerImg} alt="图标" />
+        <img src={headerImg} alt="icon" />
         <div className="header-left">
           <span>LogicClock</span>
           <span className="w-radius">1.0.0</span>

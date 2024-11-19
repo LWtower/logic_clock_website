@@ -7,8 +7,8 @@ const router = createBrowserRouter([
     element: <HomeIndex />,
   },
   {
-    path: '*', // 找不到路由显示的页面
-    element: <div>这是404页面</div>
+    path: '*',
+    element: <div>This is 404 Page</div>
   },
 ])
 
