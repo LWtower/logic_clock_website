@@ -1,0 +1,76 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "SF-Mono-Regular";
+  src: url("@/assets/fonts/SF-Mono-Regular.woff2") format("LINESeedSans_A_Bd");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "subset-SFRounded-Regular";
+  src: url("@/assets/fonts/subset-SFRounded-Regular.woff2") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "subset-SFRounded-Semibold";
+  src: url("@/assets/fonts/subset-SFRounded-Semibold.woff2") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "subset-SFRounded-Bold";
+  src: url("@/assets/fonts/subset-SFRounded-Bold.woff2") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body,
+* {
+  font-family: subset-SFRounded-Bold, SF-Mono-Regular, subset-SFRounded-Regular, subset-SFRounded-Semibold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.w-radius {
+  border-radius: 9999px;
+}
+
+.w-btn {
+  box-sizing: border-box;
+  font-weight: 600;
+  font-size: 100%;
+  text-align: center;
+  color: #fff;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: #3898ff;
+  outline: none;
+  border: none;
+  font-weight: LINESeedSans_A_Bd;
+  &:active {
+    opacity: 0.9;
+  }
+  &:hover {
+    transform: scale(1.025);
+  }
+}
