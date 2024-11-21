@@ -99,10 +99,7 @@
         background-color: transparent;
         will-change: transform;
         color: rgba(245,248,255,.56);
-        svg {
-          color: rgba(245,248,255,.56);
-          cursor: pointer;
-        }
+        cursor: pointer;
         &:active {
           box-shadow: 0 0 0 2px #000, 0 0 0 4px #7a70ff;
           border-radius: 9999px;
@@ -113,6 +110,9 @@
           box-shadow: 0 0 0 2px #000, 0 0 0 4px #7a70ff;
           border-radius: 9999px;
         }
+      }
+      .active-btn {
+        color: #4bd166;
       }
     }
     .vist {

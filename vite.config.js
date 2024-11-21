@@ -16,7 +16,7 @@ export default defineConfig({
     port: 8055
   },
   esbuild: {
-    drop: ["console", "debugger"], // 去除打包后的 console 和 debugger
+    // drop: ["console", "debugger"], // remove the packaged console and debugger
   },
   css: {
     postcss: {
@@ -33,7 +33,7 @@ export default defineConfig({
       //     mediaQuery: true,
       //     replace: true,
       //     exclude: [],
-      //     lanscape: false, // 是否处理横屏
+      //     lanscape: false, // whether to process landscape screen
       //   }),
       // ],
     },

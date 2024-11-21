@@ -8,7 +8,7 @@ const router = createBrowserRouter([
   },
   {
     path: '*',
-    element: <div>This is 404 Page</div>
+    element: <div>404 Website Illustration</div>
   },
 ])
 
